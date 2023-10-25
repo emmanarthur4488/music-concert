@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: hsla(348, 93%, 37%, 0.89);
+    --secondary: hsla(230, 78%, 21%, 0.65);
+    --footer-1: hsla(313, 80%, 43%, 0.67);
+    --footer-2: hsla(286, 85%, 8%, 0.651);
+    --phone-1:  hsla(253, 89%, 14%, 0.89);
+    --phone-2:  hsla(318, 84%, 18%, 0.89);
+}
+header{
+    background: linear-gradient(130deg, var(--secondary), var(--primary)), url(images/Rectangle\ 289.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    color: whitesmoke;
+    list-style: none;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 2rem;
+}
+header nav ul .btn{
+    color: whitesmoke;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #D3034E;
+    font-weight: 700;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+}
+ nav .menu-bar{
+    display: none;
+}
+header .follow-us{
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+header .follow-us-2{
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    text-align: center;
+    align-items: center;
+}
+header .follow-us-2{
+    display: none;
+}
+.follow-us-2 h1{
+    font-size: 16px;
+    padding-bottom: 0.5rem;
+}
+header .follow-us-2 .instragram{
+    margin-left: 1rem;
+    width: 3%;
+}
+header .follow-us-2 .facebook{
+    width: 2%;
+    height: 0.2%;
+}
+header .follow-us-2 .twitter{
+    margin-left: 1rem;
+    width: 3%;
+}
+header .follow-us-2 .youtube{
+    width: 3%;
+    margin-left: 1rem;
+}
+header .follow-us h1{
+    font-size: 12px;
+}
+header .follow-us .facebook{
+    width: 9%;
+    height: 20%;
+}
+header .follow-us .instragram, .twitter, .youtube{
+    margin-left: 0.6rem;
+    width: 9%;
+}
+.strips{
+    display: flex;
+}
+.strips .strips-lines{
+    position: relative;
+    width: 20%;
+    left: 4rem;
+}
+.strips .strips-lines img{
+    height: 60%;
+}
+.strips .plug-bar{
+    position: relative;
+    width: 80%;
+    right: 6rem;
+}
+header .strips .plug{
+    text-align: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+header .strips .plug h1{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+header .strips .bar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+header .strips .card{
+    background: #1f1c1c;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    border-radius: 5px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+header .strips .card h1{
+    color: whitesmoke;
+    font-size: 12px;
+    background: #D3034E;
+    text-transform: uppercase;
+}
+header .strips .card h2{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+}
+header .strips .card p{
+    color: #D3034E;
+    font-size: 13px;
+    font-weight: 400;
+}
+header .bar .durations{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+header .bar .durations h1{
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 600;
+}
+header .strips .bar .durations p{
+    color: #aaaaaa;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+}
+header .slots{
+    position: relative;
+    text-align: center;
+}
+header .slots .slot-1{
+    background: #D3034E;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    margin-right: 1rem;
+}
+header .slots .slot-1 img{
+    width: 1.2%;
+    padding-right: 0.2rem;
+}
+header .slots a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+header .slots .slot-2{
+    background: #D3034E;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-transform: uppercase;
+}
+header .slots .slot-2 img{
+    width: 2%;
+    padding-right: 0.2rem;
+}
+.artists{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/Rectangle\ 289.png);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    text-align: center;
+    align-items: center;
+}
+.artists h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+.artists p{
+    font-size: 16px;
+    font-weight: 400;
+    color: whitesmoke;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.artists .artists-1{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, minmax(100px, auto));
+    gap: 10px;
+}
+.artists .artists-1 img{
+    width: 50%;
+}
+.loop{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 2rem;
+}
+
+
+.loop .artists-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, minmax(50px, auto));
+    gap: 10px;
+    margin: 0 auto;
+}
+.loop .artists-2 .one{
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 100%;
+}
+.loop .artists-2 .two{
+    
+    grid-column: 3 / 5;
+    height: 100%;
+
+}
+.loop .artists-2 .three{
+    background: green;
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
+    height: 100%;
+}
+.loop .artists-2 .one img{
+    width: 100%;
+    height: 100%;
+}
+.loop .artists-2 .two img{
+    width: 100%;
+    height: 100%;
+}
+.loop .artists-2 .three img{
+    width: 100%;
+    height: 100%;
+}
+
+.loop .artists-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, minmax(50px, auto));
+    gap: 10px;
+}
+.loop .artists-1 .four{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 100%;
+    width: 100%;
+}
+.loop .artists-1 .five{
+    grid-column: 3 / 5;
+    grid-row: 1 / 4;
+    height: 100%;
+    width: 100%;
+
+}
+.loop .artists-1 .six{
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    height: 100%;
+    width: 100%;
+}
+.loop .artists-1 .four img{
+    width: 100%;
+    height: 100%;
+}
+.loop .artists-1 .five img{
+    width: 100%;
+    height: 100%;
+}
+.loop .artists-1 .six img{
+    width: 100%;
+    height: 100%;
+}
+.tickets{
+    align-items: center;
+    text-align: center;
+    background: black;
+    padding-top: 2rem;
+}
+.tickets h1{
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+.tickets p{
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.tickets .vips{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    padding: 4rem;
+}
+.tickets .vips img{
+    width: 100%;
+}
+.tickets .vips .arrow{
+    width: 7%;
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+.tickets .vips .arrow-forward{
+    width: 7%;
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+footer{
+    background: radial-gradient(var(--footer-1), var(--footer-2)), url(images/Rectangle\ 302.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+}
+footer h1{
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 12%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 8rem;
+}
+footer .links{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    display: flex;
+}
+footer .links img{
+    margin-left: 2rem;
+}
+footer p{
+    color: whitesmoke;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 2rem;
+}
+footer span{
+    border: 1px solid #aaaaaa;
+    border-radius: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+
+
+
+@media (max-width:768px){
+    header nav ul li{
+        display: none;
+    }
+    header nav ul .btn{
+        display: none;
+    }
+    header{
+        background: linear-gradient(130deg, var(--phone-1), var(--phone-2)), url(images/Rectangle\ 289.png);
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+    }
+    nav .menu-bar{
+        display: inline-block;
+        right: -23rem;
+        padding-top: 2rem;
+        position: relative;
+    }
+    header .follow-us{
+        display: none;
+    }
+    header .follow-us-2{
+        display: block;
+        color: whitesmoke;
+        text-transform: uppercase;
+        padding-top: 2rem;
+    }
+    .strips .strips-lines{
+        display: none;
+    }
+    header .strips .plug h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .loop{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        padding: 2rem;
+    }
+    .tickets .vips{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 15px;
+        padding: 4rem;
+        /* margin-top: 7rem; */
+    }
+    .tickets{
+        padding-top: 4rem;
+    }
+    .strips .plug-bar{
+        width: 100%;
+        right: auto;
+        left: auto;
+    }
+    .artists{
+        height: 130%;
+    }
+}
